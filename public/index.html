@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>API Services Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Weather and Currency Service</h1>
+
+    <section>
+        <h2>Calgary Weather</h2>
+
+        <button id="weatherBtn">
+            Get Weather
+        </button>
+
+        <p>
+            Temperature:
+            <span id="temp"></span>
+        </p>
+
+        <p>
+            Description:
+            <span id="description"></span>
+        </p>
+
+        <p>
+            Timestamp:
+            <span id="time"></span>
+        </p>
+    </section>
+
+    <section>
+        <h2>Currency Converter</h2>
+
+        <input type="number" id="amount" placeholder="Enter amount">
+
+        <select id="from">
+            <option>USD</option>
+            <option>CAD</option>
+            <option>EUR</option>
+            <option>GBP</option>
+            <option>JPY</option>
+            <option>AUD</option>
+            <option>INR</option>
+            <option>CNY</option>
+            <option>MXN</option>
+            <option>CHF</option>
+        </select>
+
+        <select id="to">
+            <option>CAD</option>
+            <option>USD</option>
+            <option>EUR</option>
+            <option>GBP</option>
+            <option>JPY</option>
+            <option>AUD</option>
+            <option>INR</option>
+            <option>CNY</option>
+            <option>MXN</option>
+            <option>CHF</option>
+        </select>
+
+        <button id="convertBtn">
+            Convert
+        </button>
+
+        <p id="rate"></p>
+
+        <p id="result"></p>
+    </section>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
